@@ -1,0 +1,16 @@
+Mini Sales 
+
+In this system consists Admin and user panel 
+CLient have access in admin panel as system owner and he is able to create new user to this system. 
+
+When client add a new user in this system then the user can login in this system as a system user. After login a user can add new product and customer, create sale for product and also can print the invoice with sale details. User can see his product stock report also. 
+
+login credientials
+
+For Admin : email - admin@gmail.com   Password : 12345678
+
+For user : email - user@gmail.com   Password : 12345678
+			user2@gmail.com   Password : 12345678
+			user3@gmail.com   Password : 12345678
+
+
