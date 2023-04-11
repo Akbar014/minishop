@@ -14,3 +14,7 @@ For user : email - user@gmail.com   Password : 12345678
 			user3@gmail.com   Password : 12345678
 
 
+here the repository link for project code
+https://github.com/Akbar014/minishop
+database sql file is also added in sql database folder
+

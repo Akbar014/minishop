@@ -32,6 +32,7 @@ class HomeController extends Controller
         $invoice = Sale::where('user_id',$userId)->count();
         return view('user.home',compact('total_product','invoice'));
     }
+    
     public function adminHome()
     {
         

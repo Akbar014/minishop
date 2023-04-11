@@ -76,19 +76,17 @@ class ProductController extends Controller
         $image = $request->file('image');
         $filename = time() . '.' . $image->getClientOriginalExtension();
         $location = public_path('images/products/' . $filename);
-        // $location = public_path('images/' . time() . $image->getClientOriginalName());
         Image::make($image)->resize(300, 300)->save($location);
         $product->image = $filename;
         
     }
 
-    // Save the new product to the database
+   
     $product->save();
 
-    // Redirect back to the product index page
-    // return redirect()->route('user.product.index')->with('success', 'Product added successfully.');
+    
     return response()->json(['success' => true, 'message' => 'Product added successfully.']);
-    // return $product;
+    
 }
 
 

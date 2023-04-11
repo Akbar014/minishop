@@ -18,6 +18,6 @@ class User
         if(auth()->user()->role_id == 1){
             return $next($request);
         }
-        return redirect('/user/home')->with('error', 'You are not authorized to access this page.');
+        return redirect('/')->with('error', 'You are not authorized to access this page.');
     }
 }
